@@ -6,7 +6,7 @@ import '../libraries/UniswapV2Library.sol';
 import '../interfaces/V1/IUniswapV1Factory.sol';
 import '../interfaces/V1/IUniswapV1Exchange.sol';
 import '../interfaces/IUniswapV2Router01.sol';
-import '../interfaces/IERC20.sol';
+import '@openzeppelin/contracts/token/ERC20/IERC20.sol';
 import '../interfaces/IWETH.sol';
 
 contract ExampleFlashSwap is IUniswapV2Callee {

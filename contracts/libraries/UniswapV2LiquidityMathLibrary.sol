@@ -5,7 +5,7 @@ import '@uniswap/v2-core/contracts/interfaces/IUniswapV2Factory.sol';
 import '@uniswap/lib/contracts/libraries/Babylonian.sol';
 import '@uniswap/lib/contracts/libraries/FullMath.sol';
 
-import './SafeMath.sol';
+import '@openzeppelin/contracts/math/SafeMath.sol';
 import './UniswapV2Library.sol';
 
 // library containing some math for dealing with the liquidity shares of a pair, e.g. computing their exact value

@@ -5,9 +5,9 @@ import '@uniswap/lib/contracts/libraries/Babylonian.sol';
 import '@uniswap/lib/contracts/libraries/TransferHelper.sol';
 
 import '../libraries/UniswapV2LiquidityMathLibrary.sol';
-import '../interfaces/IERC20.sol';
+import '@openzeppelin/contracts/token/ERC20/IERC20.sol';
 import '../interfaces/IUniswapV2Router01.sol';
-import '../libraries/SafeMath.sol';
+import '@openzeppelin/contracts/math/SafeMath.sol';
 import '../libraries/UniswapV2Library.sol';
 
 contract ExampleSwapToPrice {
