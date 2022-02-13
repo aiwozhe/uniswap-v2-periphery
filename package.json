@@ -1,5 +1,5 @@
 {
-  "name": "@aiwozhe/v2-periphery",
+  "name": "@aiwozhe/uniswap-v2-periphery",
   "version": "1.1.0",
   "description": "🎚 Peripheral smart contracts for interacting with Uniswap V2",
   "engines": {
